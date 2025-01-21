@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+    height:100vh ;
+    
+}
+.topnav{
+    background-color: #09122C;
+    border: 1px solid;
+    
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.topnav a{
+    text-decoration: none;
+    padding:17px 17px;
+    color: aliceblue;
+    
+}
+.topnav a:hover
+{
+    color:aliceblue;
+    background-color: #872341;
+}
+.active
+{
+    background-color: #BE3144;
+}
+.logo
+{
+    margin-right: 10px;
+    margin-left: auto;
+    height: 35px;
+}
+.social
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+     
+    height: 50px;
+}
+.social img
+{   display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    height: 100px;
+    width: 50%;
+}
+p
+{
+    margin: 5px;
+}
+.post
+{
+   
+background-color: #d1887d;
+    border:#ffffff 3px solid ;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+.post button
+{   
+    border-radius: 5px;
+    margin: 5px;
+     color: aliceblue;
+    background-color: #BE3144;
+    
+}
+.post button:hover
+{
+background-color:#09122C;
+}
+footer
+{display: flex;
+    color: #ffffff;
+    background-color: #09122C;
+    height: 50px;
+
+}
+footer img
+{   
+    margin-top:10px ;
+    height: 25px;
+}
+.icons
+{   
+    margin-right: 10px;
+    margin-left: auto; 
+    height: 35px;
+}
